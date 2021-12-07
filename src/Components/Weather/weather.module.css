@@ -1,0 +1,109 @@
+.weather {
+    display: flex;
+    justify-content: center;
+
+    background-color: #95e2ee;
+    color: #1e1650;
+    
+    min-width: 1150px;
+    min-height: 750px;
+    
+}
+
+.currentStat {
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    height: 500px;
+
+    align-self: center;   
+
+    padding: 20px;
+}
+
+.editButton {
+    margin: 12px;
+
+    background-color: #00bbd6;
+    color: white;
+
+    border: 0;
+    border-radius: 6px;
+
+    height: 30px;
+    width: 130px;
+
+    font-size: 16px;
+}
+
+.city {
+    color: #1e1650;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.cityName {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cityName h1 {
+    text-transform: capitalize;
+    margin: 6px 3px 0 3px;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    height: 30px;
+}
+
+.period {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.period h1 {
+    text-transform: capitalize;
+    margin: 0px 3px 0 3px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    height: 30px;
+}
+
+.lightBlue {
+    color: #00bbd6;
+    
+}
+
+.statCaption {
+    margin: 50px 0 20px 0;
+}
+
+.statisticItems {
+    display: flex;
+    justify-content: center;
+}
+
+.statKeys {
+    text-align: start;
+    margin-right: 20px;
+}
+
+.changes {
+    display: flex;
+}
+
+.selects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.select {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 22px;
+}

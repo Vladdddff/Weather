@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #95e2ee;
+
+    min-height: 45px;
+}
+
+.navBar div a {
+    margin: 10px;
+    line-height: 45px;
+
+    text-decoration: none;
+    color: #0a0141;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.navBar div a:hover {
+  font-weight: 500;  
+}
